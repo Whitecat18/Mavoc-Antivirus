@@ -9,5 +9,5 @@ I will be releasing my project as opensource when my Hackathon event is complete
 Opensouce is ❤️
 
 ```
-GIT PUSH AT SEP 10 2023
+GIT PUSH AT SEP 25 2023
 ```
