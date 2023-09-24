@@ -1811,9 +1811,6 @@ if __name__ == "__main__":
    # login_app.show()
    # app.exec_()
     
-  #  app = QApplication(sys.argv)
- #   password_auth()
-
 
     suspicious_extensions = set()
     with open('hashes/virus-extensions.txt', 'r') as ext_file:
