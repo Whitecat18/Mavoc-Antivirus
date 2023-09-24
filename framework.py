@@ -1216,7 +1216,7 @@ This Option allows you to remove the temp in your system if any backdoor or any 
                 self.status("Uploading file to Cloud Scanner...\n")
 
 
-                api_key = "ea90cf7dc3935bb0a94a9842ae5e52b397b7fec79b6478c7ea655127d11e2c0f"
+                api_key = "YOUR API KEY HERE"
                 scan_id = self.upload_to_virustotal(file_path, api_key)
 
                 if scan_id:
