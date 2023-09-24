@@ -1,0 +1,1 @@
+start python3 "schedule-scanning.py 1" ; start python "framework.py" 
