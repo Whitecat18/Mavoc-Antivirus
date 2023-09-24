@@ -1,0 +1,70 @@
+Running Partition Scan ...
+Running Full Scan on: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile
+Current Scanning Time: 2023-09-22 19:47:52
+Detected malicious files:
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\bios_date.bat, Extension: .bat
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\BitTorrent Web.lnk, Extension: .lnk
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\starting_point_kavintorvalds.ovpn, Extension: .ovpn
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\test.bat, Extension: .bat
+
+Full Scan completed.Running Partition Scan ...
+Running Full Scan on: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile
+Current Scanning Time: 2023-09-22 21:12:36
+Detected malicious files:
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\bios_date.bat, Extension: .bat
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\BitTorrent Web.lnk, Extension: .lnk
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\starting_point_kavintorvalds.ovpn, Extension: .ovpn
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\test.bat, Extension: .bat
+
+Full Scan completed.Running Partition Scan ...
+Running Full Scan on: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile
+Current Scanning Time: 2023-09-22 21:58:05
+Detected malicious files:
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\bios_date.bat, Extension: .bat
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\BitTorrent Web.lnk, Extension: .lnk
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\starting_point_kavintorvalds.ovpn, Extension: .ovpn
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\test.bat, Extension: .bat
+
+Full Scan completed.Running Partition Scan ...
+Running Full Scan on: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile
+Current Scanning Time: 2023-09-23 00:53:56
+Detected malicious files:
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\bios_date.bat, Extension: .bat
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\BitTorrent Web.lnk, Extension: .lnk
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\starting_point_kavintorvalds.ovpn, Extension: .ovpn
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\test.bat, Extension: .bat
+
+Full Scan completed.Running Partition Scan ...
+Running Full Scan on: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile
+Current Scanning Time: 2023-09-23 05:06:49
+Detected malicious files:
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\bios_date.bat, Extension: .bat
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\BitTorrent Web.lnk, Extension: .lnk
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\starting_point_kavintorvalds.ovpn, Extension: .ovpn
+File: C:/Users/UHD EDITOR/Desktop/mavoc-antivirus/testfile\test.bat, Extension: .bat
+
+Full Scan completed.Running Partition Scan ...
+Full Scan canceled by user.
+Running Partition Scan ...
+Running Full Scan on: Z:/Mavoc/testfile
+Current Scanning Time: 2023-09-24 18:35:17
+Detected malicious files:
+File: Z:/Mavoc/testfile\test.bat, Extension: .bat
+File: Z:/Mavoc/testfile\starting_point_kavintorvalds.ovpn, Extension: .ovpn
+File: Z:/Mavoc/testfile\bios_date.bat, Extension: .bat
+
+Full Scan completed.Running Partition Scan ...
+Running Full Scan on: Z:/Mavoc/testfile
+Current Scanning Time: 2023-09-24 21:14:00
+Detected malicious files:
+File: Z:/Mavoc/testfile\test.bat, Extension: .bat
+File: Z:/Mavoc/testfile\bios_date.bat, Extension: .bat
+
+Full Scan completed.Running Partition Scan ...
+Running Full Scan on: Z:/Mavoc/testfile
+Current Scanning Time: 2023-09-24 21:16:03
+Detected malicious files:
+File: Z:/Mavoc/testfile\test.bat, Extension: .bat
+File: Z:/Mavoc/testfile\bios_date.bat, Extension: .bat
+
+Full Scan completed.

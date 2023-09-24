@@ -1,0 +1,108 @@
+Running Quick Scan ...
+
+Suspicious files found:
+Running Quick Scan ...
+
+Suspicious files found:
+File: C:\Users\Smukx\AppData\Local\Temp\New folder\keyman.exe
+MD5 Hash: 822b37dd1089f988ed4a8b67b26c10ac
+SHA256 Hash: 9dba3c519b3cbe856816f98af70839ae2c0d94d44b6637815fb9366b098f2391
+
+File: C:\Users\Smukx\Pictures\keyman.exe
+MD5 Hash: 822b37dd1089f988ed4a8b67b26c10ac
+SHA256 Hash: 9dba3c519b3cbe856816f98af70839ae2c0d94d44b6637815fb9366b098f2391
+
+
+Quick Scan completed.Running Quick Scan ...
+
+Suspicious files found:
+File: C:\Users\Smukx\AppData\Local\Temp\New folder\keyman.exe
+MD5 Hash: 822b37dd1089f988ed4a8b67b26c10ac
+SHA256 Hash: 9dba3c519b3cbe856816f98af70839ae2c0d94d44b6637815fb9366b098f2391
+
+File: C:\Users\Smukx\Pictures\keyman.exe
+MD5 Hash: 822b37dd1089f988ed4a8b67b26c10ac
+SHA256 Hash: 9dba3c519b3cbe856816f98af70839ae2c0d94d44b6637815fb9366b098f2391
+
+
+Quick Scan completed.Running Quick Scan ...
+Current Scanning Time: 2023-09-24 18:34:26
+
+Suspicious files found:
+File: C:\Users\Smukx\AppData\Local\Temp\New folder\keyman.exe
+MD5 Hash: 822b37dd1089f988ed4a8b67b26c10ac
+SHA256 Hash: 9dba3c519b3cbe856816f98af70839ae2c0d94d44b6637815fb9366b098f2391
+
+File: C:\Users\Smukx\Pictures\keyman.exe
+MD5 Hash: 822b37dd1089f988ed4a8b67b26c10ac
+SHA256 Hash: 9dba3c519b3cbe856816f98af70839ae2c0d94d44b6637815fb9366b098f2391
+
+
+Quick Scan completed.Running Quick Scan ...
+Current Scanning Time: 2023-09-24 21:10:04
+Running Quick Scan ...
+Current Scanning Time: 2023-09-24 21:11:15
+
+Suspicious files found:
+File: C:\Users\Smukx\AppData\Local\Temp\.ses
+MD5 Hash: 383e7697b61a76f406f78e3afcf92043
+SHA256 Hash: 4e8bb44cf4de3f3b36b4488248d698d84fe86c6b95279a7d65d00c949d201ac9
+
+File: C:\Users\Smukx\AppData\Local\Temp\6F1B11C4-8C07-4FE7-A834-EF012B3CDB8D\AppxProvider.dll
+MD5 Hash: 256538dce9ff0f518da76c049d836778
+SHA256 Hash: f1deb03775f058ef26463d35155383c9a421e26d03a892c699b36ce4fb4870c5
+
+File: C:\Users\Smukx\AppData\Local\Temp\6F1B11C4-8C07-4FE7-A834-EF012B3CDB8D\AssocProvider.dll
+MD5 Hash: 94dc379aa020d365ea5a32c4fab7f6a3
+SHA256 Hash: dc6a5930c2b9a11204d2e22a3e8d14c28e5bdac548548e256ba7ffa79bd8c907
+
+File: C:\Users\Smukx\AppData\Local\Temp\6F1B11C4-8C07-4FE7-A834-EF012B3CDB8D\CbsProvider.dll
+MD5 Hash: 6ad0376a375e747e66f29fb7877da7d0
+SHA256 Hash: 4c9a4ab6596626482dd2190034fcb3fafebe88a961423962ad577e873ef5008f
+
+File: C:\Users\Smukx\AppData\Local\Temp\6F1B11C4-8C07-4FE7-A834-EF012B3CDB8D\DismCore.dll
+MD5 Hash: b1f793773dc727b4af1648d6d61f5602
+SHA256 Hash: af7f342adf5b533ea6978b68064f39bfb1e4ad3b572ae1b7f2287f5533334d4e
+
+File: C:\Users\Smukx\AppData\Local\Temp\6F1B11C4-8C07-4FE7-A834-EF012B3CDB8D\DismCorePS.dll
+MD5 Hash: ce4079087dbc8d4d6262781530f973cd
+SHA256 Hash: 22928a593a43d029e5ac789cc38afe5ffe5007099e0d39a2b4a0761559a157d4
+
+File: C:\Users\Smukx\AppData\Local\Temp\6F1B11C4-8C07-4FE7-A834-EF012B3CDB8D\DismHost.exe
+MD5 Hash: e5d5e9c1f65b8ec7aa5b7f1b1acdd731
+SHA256 Hash: e30508e2088bc16b2a84233ced64995f738deaef2366ac6c86b35c93bbcd9d80
+
+File: C:\Users\Smukx\AppData\Local\Temp\6F1B11C4-8C07-4FE7-A834-EF012B3CDB8D\DismProv.dll
+MD5 Hash: 490be3119ea17fa29329e77b7e416e80
+SHA256 Hash: ef1e263e1bcc05d9538cb9469dd7dba5093956aa325479c3d2607168cc1c000a
+
+File: C:\Users\Smukx\AppData\Local\Temp\6F1B11C4-8C07-4FE7-A834-EF012B3CDB8D\DmiProvider.dll
+MD5 Hash: ea8488990b95ce4ef6b4e210e0d963b2
+SHA256 Hash: 04f851b9d5e58ed002ad768bdcc475f22905fb1dab8341e9b3128df6eaa25b98
+
+File: C:\Users\Smukx\AppData\Local\Temp\6F1B11C4-8C07-4FE7-A834-EF012B3CDB8D\FfuProvider.dll
+MD5 Hash: df785c5e4aacaee3bd16642d91492815
+SHA256 Hash: 56cc8d139be12e969fff3bbf47b1f5c62c3db887e3fb97c79cf7d285076f9271
+
+Running Quick Scan ...
+Current Scanning Time: 2023-09-24 21:12:33
+
+Suspicious files found:
+File: C:\Users\Smukx\AppData\Local\Temp\.ses
+MD5 Hash: 383e7697b61a76f406f78e3afcf92043
+SHA256 Hash: 4e8bb44cf4de3f3b36b4488248d698d84fe86c6b95279a7d65d00c949d201ac9
+
+File: C:\Users\Smukx\AppData\Local\Temp\6F1B11C4-8C07-4FE7-A834-EF012B3CDB8D\AppxProvider.dll
+MD5 Hash: 256538dce9ff0f518da76c049d836778
+SHA256 Hash: f1deb03775f058ef26463d35155383c9a421e26d03a892c699b36ce4fb4870c5
+
+Running Quick Scan ...
+Current Scanning Time: 2023-09-24 21:13:02
+
+Suspicious files found:
+File: C:\Users\Smukx\Pictures\keyman.exe
+MD5 Hash: 822b37dd1089f988ed4a8b67b26c10ac
+SHA256 Hash: 9dba3c519b3cbe856816f98af70839ae2c0d94d44b6637815fb9366b098f2391
+
+
+Quick Scan completed.

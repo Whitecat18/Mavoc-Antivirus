@@ -1,0 +1,13 @@
+2023-09-24 23:17:33,151 - INFO: Scheduled scan started.
+2023-09-24 23:17:33,166 - INFO: Scanned Date: 2023-09-24 23:17:33
+2023-09-24 23:17:33,166 - INFO: Running Full Scan on: C:\Users\Smukx\AppData\Local\Temp
+2023-09-24 23:17:33,166 - INFO: Scanning for malicious files...
+2023-09-24 23:17:33,166 - INFO: Current Scanning Time: 2023-09-24 23:17:33
+2023-09-24 23:17:34,041 - INFO: Running Full Scan on: C:\Users\Smukx\Pictures
+2023-09-24 23:17:34,041 - INFO: Scanning for malicious files...
+2023-09-24 23:17:34,041 - INFO: Current Scanning Time: 2023-09-24 23:17:34
+2023-09-24 23:17:35,014 - INFO: Running Full Scan on: C:\Users\Smukx\Music
+2023-09-24 23:17:35,014 - INFO: Scanning for malicious files...
+2023-09-24 23:17:35,015 - INFO: Current Scanning Time: 2023-09-24 23:17:35
+2023-09-24 23:17:35,784 - INFO: No malicious files found.
+2023-09-24 23:17:35,799 - INFO: Scan Completed at 2023-09-24 23:17:35
