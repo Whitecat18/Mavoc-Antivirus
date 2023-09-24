@@ -30,7 +30,7 @@
 **Network Protection Restricts Malicious websites over 42 Thousand websites .**
 
 
-### Types of Scans
+## Types of Scans
 
 **There are 6 Types of Scans** 
 
@@ -42,44 +42,43 @@
 - Clean System
 
 
-###  Quick Scan 
+<details>
+  <summary><h3>Quick Scan</h3></summary>
+  <p>There are 2 types of Scans, Quick Recursive and Non-Recursive Scan.</p>
+  <p>Quick Non-Recursive scan will simply look for common places where malware, payloads, etc., may be stored.</p>
+  <p>Quick Recursive Scan will scan all files recursively in the common path, even inside temporary files and folders within the common directory path.</p>
+</details>
 
-There are 2 types of Scans , Quick Recursive and Non Recursive Scan.
+<details>
+  <summary><h3>Schedule Scan</h3></summary>
+  <p>To initiate a Schedule Scan with Mavoc Antivirus, you need to start the Mavoc Antivirus application.</p>
+  <p>Schedule Scan will scan the common path every 1 minute by default, but you can adjust the timing in the mavoc.ps1 script.</p>
+</details>
 
-Quick non Recursive scan will just look for the particular common places where they will be an chance of storing malware , payloads etc ... 
+<details>
+  <summary><h3>Full Scan</h3></summary>
+  <p>There are Two Types of Scans: Full Scan and Partition Scan.</p>
+  <p>Full Scan will comprehensively scan your entire system, which may take hours, so please be patient when using this option.</p>
+  <p>Partition Scan allows you to select a particular partition or folder to scan files recursively, making it the fastest scanning method.</p>
+</details>
 
-Quick Recursive Scan will scan all files recursively on the common path , even scans inside all the temp files, on every Folder in the common Directory Path .
+<details>
+  <summary><h3>Network Blocker</h3></summary>
+  <p>Network Blocker contains a list of more than 42,000 malicious sites. When enabled, it blocks access to these sites. You can reset it to the default settings by choosing to disable network blocker.</p>
+</details>
 
-### Schedule Scan
+<details>
+  <summary><h3>Cloud Firm Scan</h3></summary>
+  <p>This scan utilizes the VIRUS TOTAL API to scan a specific file.</p>
+  <p>Important Note: If you are using the free VIRUS TOTAL API, limit your scans to a minimum of 3 files per minute.</p>
+</details>
 
-To start the Schedule Scan with mavoc antivirus  , you need to start the mavoc antivirus 
-Schedule Scan will Scan all the common path for every 1 min . For Default i have given every 10 Mins to maintain Stability , you can even change the timing on the mavoc.ps1 .
-
-### Full Scan 
-
-**There are Two Types of Scans Full Scan and Partition Scan .**
-
-Full Scan will completely Scans your whole Systems. It May Take Hours so be patient using the option
-
-**Partition Scan**
-
-In this scan , you can select an particular partition or an folder to scan the files recursively. 
-The Fastest Method.
-
-### Network Blocker
-
-Network Blocker has more than 42K malicious sites , when you enable network blocker , it blocks all the malicious sites , you can reset it to default by choosing disable network blocker .
-
-### Cloud Firm Scan
-
-This scan uses VIRUS TOTAL API to Scan an particular file . 
-
-**Remember :** ***IF YOU ARE USING FREE VIRUS TOTAL API , SCAN MINIMUM 3 FILES FOR AN MINUTE .*** **There are Two Types of Scans Full Scan and Partition Scan .**
+<details>
+  <summary><h3>Clean System</h3></summary>
+  <p>Clean System is used to remove unwanted files from common directory paths, such as temporary and registry paths. It automatically deletes these files to optimize system performance and enhance security.</p>
+</details>
 
 
-### Clean System
 
-Clean System is used to clean all unwanted files on the common directories paths such as temp path registry path etc .. and deletes the files automatically to make your system fast and to keep it secure .
-
-### Working Methodology
+## Methods
 
