@@ -41,9 +41,6 @@ from antivirus.ui_design import show_help_menu
 
 Theses mode is used to clear the screen of the black ones . To clear the screen , append the module at front
 
-certutil -hashfile Example.txt MD5
-certutil -hashfile Example.txt SHA256
-
 '''
 
 
