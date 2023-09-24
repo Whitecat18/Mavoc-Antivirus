@@ -48,8 +48,8 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
 <details>
   <summary><b>Quick Scan</b></summary>
   <p><b>There are 2 types of Scans, Quick Recursive and Non-Recursive Scan.</b></p>
+  <p>Quick Recursive Scan will scan all files recursively in the common paths, even inside temporary files and folders within the common directory path. </p>
   <p>Quick Non-Recursive scan will simply look for common places where malware, payloads, etc., may be stored.</p>
-  <p>Quick Recursive Scan will scan all files recursively in the common path, even inside temporary files and folders within the common directory path.</p>
 </details>
 
 <details>
@@ -104,4 +104,4 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
 By default it has over 42000 Malicious and scamming sites.</p>
 </details>
 
-Uploading ... 
+####  UPDATES
