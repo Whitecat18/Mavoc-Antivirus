@@ -36,14 +36,14 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
 ## Types of Scans
 
 **There are 6 Types of Scans** 
-
+<!---
 - Quick Scan
 - Schedule Scan 
 - Full Scan
 - Network Blocker
 - Cloud Firm Scan
 - Clean System
-
+--->
 
 <details>
   <summary><b>Quick Scan</b></summary>
@@ -82,6 +82,17 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
 </details>
 
 
+## Installation 
+
+Install the requirements. `pip3 install -r requirements.txt` .
+
+**NOTE :: Execute the program on Administrator .**
+
+RUN THE mavoc.py to start implementing all Functions.
+
+RUN THE framework.py to skip the user login and can skip schedule Scan .
+
+
 #### Customization
 
 <details>
@@ -104,4 +115,6 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
 By default it has over 42000 Malicious and scamming sites.</p>
 </details>
 
-####  UPDATES
+####  UPDATES .., 
+
+UPLOADING PLEASE WAIT !! 
