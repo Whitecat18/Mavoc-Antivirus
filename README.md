@@ -52,7 +52,7 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
 
 <details>
   <summary><h3>Schedule Scan</h3></summary>
-  <p>To initiate a Schedule Scan with Mavoc Antivirus, you need to start the Mavoc Antivirus application.</p>
+  <p>To initiate a Schedule Scan with Mavoc Antivirus, you need to start the Mavoc Antivirus application mavoc.ps1 instead of staring the mavoc.py .</p>
   <p>Schedule Scan will scan and completely removes malicious files on common path every 1 minute by default, but you can adjust the timing in the mavoc.ps1 script.</p>
 </details>
 
@@ -81,3 +81,7 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
 
 
 #### Customization
+
+You can customize the following path and tool on the program . '
+
+Uploading ... 
