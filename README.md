@@ -4,7 +4,7 @@
   <br>
 
   <p><i> An opensource antivirus tool that scans system files and removes malware , Torjans , payloads, botnets, Ransomeweres(If not Active) ..etc 
-  <br>created by<a href="https://twitter.com/Smukx07">@Smukx</a>.</i></p>
+  <br>created by<a href="https://twitter.com/Smukx07"> @Smukx</a> .</i></p>
   <br />
 </div>
 
