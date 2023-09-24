@@ -1,9 +1,10 @@
 <div align="center">
-  <h1>Mavoc Antivirus</h1>
   <img width="160px" src="images/mavoc_antivirus_logo.png" />
+  <h1>Mavoc Antivirus</h1>
+
   <br>
 
-  <p><i> An opensource antivirus tool that scans system files and removes malware , Torjans , payloads, botnets, Ransomeweres(If not Active) ..etc 
+  <p><i> An opensource antivirus tool that scans system files and removes malware , Torjans , payloads, botnets, Ransomeweres ..etc 
   <br>Created in QT and python by<a href="https://twitter.com/Smukx07"> @Smukx</a> .</i></p>
   <br />
   <img src="images/mavoc_quickscan.png" width=70%/>
