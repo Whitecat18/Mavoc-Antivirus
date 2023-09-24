@@ -17,7 +17,7 @@
 <div align="center">
   
   <img src="images/Core.png" width=70% /><br/>
-  <p>Flowchart for working methodology </p>
+  Flowchart for working methodology
   <br>
   </div>
  
@@ -29,6 +29,7 @@
 
 **Network Protection Restricts Malicious websites over 42 Thousand websites .**
 
+Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Scan . 
 
 ## Types of Scans
 
@@ -44,7 +45,7 @@
 
 <details>
   <summary><h3>Quick Scan</h3></summary>
-  <p>There are 2 types of Scans, Quick Recursive and Non-Recursive Scan.</p>
+  <p><b>There are 2 types of Scans, Quick Recursive and Non-Recursive Scan.</b></p>
   <p>Quick Non-Recursive scan will simply look for common places where malware, payloads, etc., may be stored.</p>
   <p>Quick Recursive Scan will scan all files recursively in the common path, even inside temporary files and folders within the common directory path.</p>
 </details>
@@ -52,12 +53,12 @@
 <details>
   <summary><h3>Schedule Scan</h3></summary>
   <p>To initiate a Schedule Scan with Mavoc Antivirus, you need to start the Mavoc Antivirus application.</p>
-  <p>Schedule Scan will scan the common path every 1 minute by default, but you can adjust the timing in the mavoc.ps1 script.</p>
+  <p>Schedule Scan will scan and completely removes malicious files on common path every 1 minute by default, but you can adjust the timing in the mavoc.ps1 script.</p>
 </details>
 
 <details>
   <summary><h3>Full Scan</h3></summary>
-  <p>There are Two Types of Scans: Full Scan and Partition Scan.</p>
+  <p><b>There are Two Types of Scans: Full Scan and Partition Scan.</b></p>
   <p>Full Scan will comprehensively scan your entire system, which may take hours, so please be patient when using this option.</p>
   <p>Partition Scan allows you to select a particular partition or folder to scan files recursively, making it the fastest scanning method.</p>
 </details>
@@ -79,6 +80,4 @@
 </details>
 
 
-
-## Methods
-
+#### Customization
