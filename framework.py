@@ -2,7 +2,7 @@
 Mavoc-Antivirus Tool
 By Smukx 
 My Opensource Codes :https://github.com/Whitecat18
-For Work : https://www.linkedin.com/in/smukx/
+For Work : https://twitter.com/Smukx07
 '''
 
 from PyQt5.QtWidgets import * 
