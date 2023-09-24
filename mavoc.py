@@ -28,11 +28,3 @@ if verify_password(stored_hashed_password, entered_password):
 
 else:
     print("Incorrect password. Exiting...")
-
-
-
-
-
-
-
-#stored_password = b'$2a$10$RWv/Mt4so0U9Fj8YYbr/oeFNRfLO.5u0wG5y4qXiY/uI./RH1f0ym'  # Replace with your stored hashed password
