@@ -6,8 +6,9 @@
   <p><i> An opensource antivirus tool that scans system files and removes malware , Torjans , payloads, botnets, Ransomeweres(If not Active) ..etc 
   <br>Created in QT and python by<a href="https://twitter.com/Smukx07"> @Smukx</a> .</i></p>
   <br />
+  <img src="images/mavoc_quickscan.png" width=70%/>
+  <img src="images/quick-scan-result.png" width=70%/>
 </div>
-
 
 > ":warning: The tool is in its early developmental stage. The Heuristic method is still under development. It will come with a new feature in the next update.
 
