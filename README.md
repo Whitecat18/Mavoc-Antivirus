@@ -90,6 +90,8 @@ Install the requirements. `pip3 install -r requirements.txt` .
 
 RUN THE mavoc.py to start implementing all Functions.
 
+REPLACE your api key for virus total , cloud scans , search  `api_key` on framework.py and replace it with your /
+   
 RUN THE framework.py to skip the user login and can skip schedule Scan .
 
 
