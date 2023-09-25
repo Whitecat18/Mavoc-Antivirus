@@ -89,12 +89,22 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
 Install the requirements. `pip3 install -r requirements.txt` .
 
 **NOTE :: Execute the program on Administrator .**
+```
+wget 
+cd Mavoc
+pip3 install -r requirements.txt
+start-process powershell.exe -Verb RunAs
+cd C:\\<MAVOC-DIRECTORY>\ # GO TO MAVOC-ANTIVIRUS DIRECTORY 
+python3 mavoc.py 
+```
+
+_Password_ : **_mavoc_**
 
 RUN THE mavoc.py to start implementing all Functions.
 
-REPLACE your api key for virus total , cloud scans , search  `api_key` on framework.py and replace it with your /
-   
-RUN THE framework.py to skip the user login and can skip schedule Scan .
+REPLACE your api key for virus total , cloud scans , search  `api_key` on framework.py and replace it with your virustotal API
+
+To set custom hashes for scanning . visit the release to download required hashes for your needs ! 
 
 > **Warning** ⚠️ Schedule scan will delete all the files without testing . so be careful when you operate the schedule scan. 
 
