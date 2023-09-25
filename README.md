@@ -10,8 +10,9 @@
   <img src="images/mavoc_quickscan.png" width=70%/>
   <img src="images/quick-scan-result.png" width=70%/>
 </div>
+<br>
 
-> ":warning: The tool is in its early developmental stage. The Heuristic method is still under development. It will come with a new feature in the next update.
+>  :warning: The tool is in its early developmental stage. The Heuristic method is still under development. It will come with a new feature in the next update.
 
 
 ## Working Methodology
@@ -94,6 +95,7 @@ REPLACE your api key for virus total , cloud scans , search  `api_key` on framew
    
 RUN THE framework.py to skip the user login and can skip schedule Scan .
 
+> **Warning** ⚠️ Schedule scan will delete all the files without testing . so be careful when you operate the schedule scan.  
 
 #### Customization
 
@@ -116,6 +118,8 @@ RUN THE framework.py to skip the user login and can skip schedule Scan .
   <p>You can custom your own black list program to block sites 
 By default it has over 42000 Malicious and scamming sites.</p>
 </details>
+
+<detailes>
 
 ####  UPDATES .., 
 
