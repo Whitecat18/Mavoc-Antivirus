@@ -89,8 +89,11 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
 Install the requirements. `pip3 install -r requirements.txt` .
 
 **NOTE :: Execute the program on Administrator .**
+
+**Methods ~**
+
 ```
-wget 
+wget https://github.com/Whitecat18/Mavoc-Antivirus/releases/download/v1.1.0/Mavoc-Antivirus-main.zip
 cd Mavoc-Antivirus
 pip3 install -r requirements.txt
 start-process powershell.exe -Verb RunAs
