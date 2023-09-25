@@ -10,6 +10,8 @@
   <br />
   <img src="images/mavoc_quickscan.png" width=70%/>
   <img src="images/quick-scan-result.png" width=70%/>
+  
+  <b><i>Antivirus password : mavoc</i></b>
 </div>
 <br>
 
