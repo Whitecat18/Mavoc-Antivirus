@@ -111,6 +111,8 @@ def main():
     parser.add_argument("scan_interval", type=int, help="Scan interval in minutes")
     args = parser.parse_args()
 
+    # PATH FOR SCHEDULE SCANNING
+    
     directories_to_scan = [
         os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Temp'),
     #    os.path.join(os.environ['USERPROFILE'], 'Desktop'),
