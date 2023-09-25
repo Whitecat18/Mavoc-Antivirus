@@ -133,7 +133,7 @@ REPLACE your api key for virus total , cloud scans , search  `api_key` on framew
 
 To set custom hashes for scanning . visit the release to download required hashes for your needs ! 
 
-> **Warning** ⚠️ Schedule scan will delete all the files without testing . so be careful when you operate the schedule scan. 
+> **Warning** ⚠️ Schedule scan will delete all the files without asking permission from the user. so be careful when you operate the schedule scan . By Default i have added the safer , malicous paths alone .  
 
 #### Customization
 
@@ -168,8 +168,10 @@ By default it has over 42000 Malicious and scamming sites.</p>
 Updates are on the way , The Update Option will be avaiable when we download and install it . 
 
 - [ ] Mavoc 1.0.1
-- [ ] Mavoc Installer ( Baking )
-- [ ] Additional options to Network Protection
+- [ ] Mavoc Installer ( Will Be Released within this week )
+- [ ] Heuristic Advance Logic Implementatition
+- [ ] Additional features to Network Protection
+
 
 
 #### Contribution 
