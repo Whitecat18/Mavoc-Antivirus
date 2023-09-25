@@ -165,7 +165,7 @@ By default it has over 42000 Malicious and scamming sites.</p>
 
 ####  UPDATES .., 
 
-Updates are on the way , The Update Option will be avaiable when we download and install it . 
+Updates are on the way , The Update Option will be avaiable when releaes new version on it  . 
 
 - [ ] Mavoc 1.0.1
 - [ ] Mavoc Installer ( Will Be Released within this week )
