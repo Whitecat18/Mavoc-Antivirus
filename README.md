@@ -91,7 +91,7 @@ Install the requirements. `pip3 install -r requirements.txt` .
 **NOTE :: Execute the program on Administrator .**
 ```
 wget 
-cd Mavoc
+cd Mavoc-Antivirus
 pip3 install -r requirements.txt
 start-process powershell.exe -Verb RunAs
 cd C:\\<MAVOC-DIRECTORY>\ # GO TO MAVOC-ANTIVIRUS DIRECTORY 
@@ -121,7 +121,7 @@ To set custom hashes for scanning . visit the release to download required hashe
 <details>
   <br>
   <summary><b>Setting Path for Quick Scanning</b></summary> 
-  <p>On Line 1828 or Search `DIRECTORY PATH FOR QUICK SCAN` on the mavoc.py. you can add your own directory for scanning .</p>
+  <p>On Line 1828 or Search `DIRECTORY PATH FOR QUICK SCAN` on the framework.py. you can add your own directory for scanning .</p>
 </details>
 
 <details>
@@ -138,4 +138,10 @@ By default it has over 42000 Malicious and scamming sites.</p>
 
 ####  UPDATES .., 
 
-UPLOADING PLEASE WAIT ! 
+Updates are on the way , The Update Option will be avaiable when we download and install it . 
+
+#### Contribution 
+
+Everyone can contribute to this software , i will verify , test and merge it .  
+
+<i> Special thanks to Phoenix for helping me in the Layout Designs </i>
