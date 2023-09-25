@@ -47,38 +47,39 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
 --->
 
 <details>
-  <summary><b>Quick Scan</b></summary>
+  <summary><b>Quick Scan <img width=18px src= "core/stopwatch.png" /></b></summary>
   <p><b>There are 2 types of Scans, Quick Recursive and Non-Recursive Scan.</b></p>
   <p>Quick Recursive Scan will scan all files recursively in the common paths, even inside temporary files and folders within the common directory path. </p>
   <p>Quick Non-Recursive scan will simply look for common places where malware, payloads, etc., may be stored.</p>
 </details>
 
 <details>
-  <summary><b>Schedule Scan</b></summary>
-  <p>To initiate a Schedule Scan with Mavoc Antivirus, you need to start the Mavoc Antivirus application mavoc.ps1 instead of staring the mavoc.py .</p>
+  <summary><b>Schedule Scan <img width=18px src= "core/schedule.png" /></b></summary>
+  <p>To initiate a Schedule Scan with Mavoc Antivirus, you need to start the Mavoc Antivirus application mavoc.ps1 instead of staring the framework.py by.</p>
+  <p>By Default the summary scan will download and install modules
   <p>Schedule Scan will scan and completely removes malicious files on common path every 1 minute by default, but you can adjust the timing in the mavoc.ps1 script.</p>
 </details>
 
 <details>
-  <summary><b>Full Scan</b></summary>
+  <summary><b>Full Scan <img width=18px src= "core/error.png" /></b></summary>
   <p><b>There are Two Types of Scans: Full Scan and Partition Scan.</b></p>
   <p>Full Scan will comprehensively scan your entire system, which may take hours, so please be patient when using this option.</p>
   <p>Partition Scan allows you to select a particular partition or folder to scan files recursively, making it the fastest scanning method.</p>
 </details>
 
 <details>
-  <summary><b>Network Blocker</b></summary>
-  <p>Network Blocker contains a list of more than 42,000 malicious sites. When enabled, it blocks access to these sites. You can reset it to the default settings by choosing to disable network blocker.</p>
+  <summary><b>Network <img width=18px src= "core/globe-grid.png" /></b></summary>
+  <p>Network Protection contains a list of more than 42,000 malicious sites. When enabled, it blocks access to these sites. You can reset it to the default settings by choosing to disable network blocker.</p>
 </details>
 
 <details>
-  <summary><b>Cloud Firm Scan</b></summary>
+  <summary><b>Cloud Firm Scan <img width=18px src="core/security.png" /></b></summary>
   <p>This scan utilizes the VIRUS TOTAL API to scan a specific file.</p>
   <p>Important Note: If you are using the free VIRUS TOTAL API, limit your scans to a minimum of 3 files per minute.</p>
 </details>
 
 <details>
-  <summary><b>Clean System</b></summary>
+  <summary><b>Clean System <img width=18px src="core/system.png" /></b></summary>
   <p>Clean System is used to remove unwanted files from common directory paths, such as temporary and registry paths. It automatically deletes these files to optimize system performance and enhance security.</p>
 </details>
 
@@ -95,7 +96,7 @@ REPLACE your api key for virus total , cloud scans , search  `api_key` on framew
    
 RUN THE framework.py to skip the user login and can skip schedule Scan .
 
-> **Warning** ⚠️ Schedule scan will delete all the files without testing . so be careful when you operate the schedule scan.  
+> **Warning** ⚠️ Schedule scan will delete all the files without testing . so be careful when you operate the schedule scan. 
 
 #### Customization
 
@@ -119,8 +120,12 @@ RUN THE framework.py to skip the user login and can skip schedule Scan .
 By default it has over 42000 Malicious and scamming sites.</p>
 </details>
 
-<detailes>
+<details>
+<summary><b>Setting Path for Schedule Scan</b></summary>
+<p>You can customize the path for the schedule scan . edit the schedule-scanning.py , search <b>`# PATH FOR SCHEDULE SCANNING`</b> in the directories_to_scan = 
+  [] add the following path for your needs.</p>
+</details>
 
 ####  UPDATES .., 
 
-UPLOADING PLEASE WAIT !! 
+UPLOADING PLEASE WAIT ! 
