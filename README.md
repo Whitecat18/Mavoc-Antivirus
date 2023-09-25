@@ -25,17 +25,18 @@
   <br>
   </div>
  
-**Scans files using Hashing algorithm such as sha256 and md5 hashes .**
+**Scans files using Hashing algorithms with latest database collections such as sha256 and md5 hashes (MOST REQUESTED).**
 
-**Uses Heuristic Method to Scan 1st Set of Lines .**
+**Uses Heuristic Method to Scan 1st Set of Lines (MOST REQUESTED)**
   
-**Scans files using malicious extensions over 900+ popular malicious extensions**
+**Scans files using malicious extensions over 900+ popular malicious extensions (MOST REQUESTED)**
 
-**Saves all the results in an seperate log files**
+**Saves all the results in an seperate log files (MOST REQUESTED)**
+
+**Can used to Delete malicious file with your Permission only (analyse (MOST REQUESTED FOR ANALYSING)** 
 
 **Network Protection Restricts Malicious websites over 42000 Websites**
 
-Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Scan . 
 
 ## Types of Scans
 
