@@ -147,4 +147,4 @@ Updates are on the way , The Update Option will be avaiable when we download and
 
 Everyone can contribute to this software , i will verify , test and merge it .  
 
-<i> Special thanks to Phoenix for helping me in the Layout Designs </i>
+<i> Special thanks to Phoenix for helping me in the Design Layouts 🍀 </i>
