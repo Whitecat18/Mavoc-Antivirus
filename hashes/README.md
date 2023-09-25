@@ -1,0 +1,1 @@
+By Default The hash has current 350000 New SHA256 and MD5 hashes , If you need all popular database replace the content with the full_* avaiable at the <a href= "https://github.com/Whitecat18/Mavoc-Antivirus/releases/tag/v1.1.0" > releases </a>
