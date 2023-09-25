@@ -107,6 +107,7 @@
   <img width=45% src="images/mavoc-files.png" />
   </div>  
 </details>
+
 ## Installation 
 
 Install the requirements. `pip3 install -r requirements.txt` .
@@ -167,7 +168,7 @@ By default it has over 42000 Malicious and scamming sites.</p>
 
 Updates are on the way , The Update Option will be avaiable when releaes new version on it  . 
 
-- [ ] Mavoc 1.0.1
+- [X] Mavoc Beta -> 1.0.0
 - [ ] Mavoc Installer ( Will Be Released within this week )
 - [ ] Heuristic Advance Logic Implementatition
 - [ ] Additional features to Network Protection
