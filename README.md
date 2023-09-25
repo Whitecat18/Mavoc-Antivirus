@@ -4,7 +4,7 @@
 
   <br>
 
-  <p><i> An opensource antivirus tool that scans, analyse and removes malwares, Torjans, payloads ,botnets, Ransomeweres etc 
+  <p><i> An opensource antivirus tool that scans, analyse and removes malwares, Torjans, payloads ,botnets,Ransomewere etc
   <br>
     Created in QT and python by<a href="https://twitter.com/Smukx07"> @Smukx</a> .</i></p>
   <br />
