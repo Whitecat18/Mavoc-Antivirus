@@ -167,6 +167,11 @@ By default it has over 42000 Malicious and scamming sites.</p>
 
 Updates are on the way , The Update Option will be avaiable when we download and install it . 
 
+- [ ] Mavoc 1.0.1
+- [ ] Mavoc Installer ( Baking )
+- [ ] Additional options to Network Protection
+
+
 #### Contribution 
 
 Everyone can contribute to this software , i will verify , test and merge it .  
