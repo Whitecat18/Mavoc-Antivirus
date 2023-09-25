@@ -4,8 +4,9 @@
 
   <br>
 
-  <p><i> An opensource antivirus tool that scans system files and removes malware , Torjans , payloads, botnets, Ransomeweres ..etc 
-  <br>Created in QT and python by<a href="https://twitter.com/Smukx07"> @Smukx</a> .</i></p>
+  <p><i> An opensource antivirus tool that scans, analyse and removes malwares, Torjans, payloads ,botnets, Ransomeweres etc 
+  <br>
+    Created in QT and python by<a href="https://twitter.com/Smukx07"> @Smukx</a> .</i></p>
   <br />
   <img src="images/mavoc_quickscan.png" width=70%/>
   <img src="images/quick-scan-result.png" width=70%/>
@@ -28,9 +29,11 @@
 
 **Uses Heuristic Method to Scan 1st Set of Lines .**
   
-**Scans files using malicious extensions over 900+ popular malicious extensions .**
+**Scans files using malicious extensions over 900+ popular malicious extensions**
 
-**Network Protection Restricts Malicious websites over 42 Thousand websites .**
+**Saves all the results in an seperate log files**
+
+**Network Protection Restricts Malicious websites over 42000 Websites**
 
 Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Scan . 
 
@@ -83,7 +86,26 @@ Note : FOR SCHEDULE SCAN . RUN mavoc.py to Start the Antivirus with Schedule Sca
   <p>Clean System is used to remove unwanted files from common directory paths, such as temporary and registry paths. It automatically deletes these files to optimize system performance and enhance security.</p>
 </details>
 
+#### FEATURES
 
+<details>
+  <summary><b>Log Viewer</b></summary>
+  
+  <b>You can view log files on the menu bar</b>
+  
+  <div align="center">
+  <img  width=50% src="images/mavoc-log-menu.png" />
+  </div>
+</details>
+
+<details>
+  <summary><b>Add Database</b></summary>
+  <p>You can create your own databases . by default it has over 350000 New, Popular Databases Till 24 SEP 2023 </p>
+  <p>To add your custom database , the hash files are located in the /hashes directory. or you can add the database through the File options avaiable on the menu_bar </p>
+  <div align="center">
+  <img width=45% src="images/mavoc-files.png" />
+  </div>  
+</details>
 ## Installation 
 
 Install the requirements. `pip3 install -r requirements.txt` .
@@ -98,7 +120,8 @@ cd Mavoc-Antivirus
 pip3 install -r requirements.txt
 start-process powershell.exe -Verb RunAs
 cd C:\\<MAVOC-DIRECTORY>\ # GO TO MAVOC-ANTIVIRUS DIRECTORY 
-python3 mavoc.py 
+python3 mavoc.py
+
 ```
 
 _Password_ : **_mavoc_**
