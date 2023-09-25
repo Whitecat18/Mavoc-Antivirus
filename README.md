@@ -95,6 +95,7 @@
   <b>You can view log files on the menu bar</b>
   
   <div align="center">
+  <p align="Left">Log Viewer is used to view the logs of recent Scans and the results of scans like malicious files detected and the files that are removed from the system after the approval from the user </p>
   <img  width=50% src="images/mavoc-log-menu.png" />
   </div>
 </details>
