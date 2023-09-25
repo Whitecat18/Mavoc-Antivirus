@@ -4,7 +4,7 @@
 
   <br>
 
-  <p><i> An opensource antivirus tool that scans, analyse and removes malwares, Torjans, payloads ,botnets,Ransomewere etc
+  <p><i> An opensource antivirus tool that scans, analyzes,s and removes malware, Torjans, payloads, botnets, Ransomware, etc
   <br>
     Created in QT and python by<a href="https://twitter.com/Smukx07"> @Smukx</a> .</i></p>
   <br />
@@ -25,17 +25,17 @@
   <br>
   </div>
  
-**Scans files using Hashing algorithms with latest database collections such as sha256 and md5 hashes (MOST REQUESTED).**
+**Scans files using Hashing algorithms with the latest database collections such as sha256 and md5 hashes (MOST REQUESTED).**
 
 **Uses Heuristic Method to Scan 1st Set of Lines (MOST REQUESTED)**
   
 **Scans files using malicious extensions over 900+ popular malicious extensions (MOST REQUESTED)**
 
-**Saves all the results in an seperate log files (MOST REQUESTED)**
+**Saves all the results in a separate log file (MOST REQUESTED)**
 
-**Can used to Delete malicious file with your Permission only (analyse (MOST REQUESTED FOR ANALYSING)** 
+**Can used to Delete malicious files with your Permission only (analyse (MOST REQUESTED FOR ANALYSING)** 
 
-**Network Protection Restricts Malicious websites over 42000 Websites**
+**Network Protection Restricts Malicious Websites over 46000 Websites**
 
 
 ## Types of Scans
@@ -59,9 +59,9 @@
 
 <details>
   <summary><b>Schedule Scan <img width=18px src= "core/schedule.png" /></b></summary>
-  <p>To initiate a Schedule Scan with Mavoc Antivirus, you need to start the Mavoc Antivirus application mavoc.ps1 instead of staring the framework.py by.</p>
+  <p>To initiate a Schedule Scan with Mavoc Antivirus, you need to start the Mavoc Antivirus application mavoc.ps1 instead of starting the framework.py by.</p>
   <p>By Default the summary scan will download and install modules
-  <p>Schedule Scan will scan and completely removes malicious files on common path every 1 minute by default, but you can adjust the timing in the mavoc.ps1 script.</p>
+  <p>Schedule Scan will scan and completely remove malicious files on a common path every 1 minute by default, but you can adjust the timing in the mavoc.ps1 script.</p>
 </details>
 
 <details>
@@ -73,7 +73,7 @@
 
 <details>
   <summary><b>Network <img width=18px src= "core/globe-grid.png" /></b></summary>
-  <p>Network Protection contains a list of more than 42,000 malicious sites. When enabled, it blocks access to these sites. You can reset it to the default settings by choosing to disable network blocker.</p>
+  <p>Network Protection contains a list of more than 42,000 malicious sites. When enabled, it blocks access to these sites. You can reset it to the default settings by choosing to disable the network blocker.</p>
 </details>
 
 <details>
@@ -95,15 +95,15 @@
   <b>You can view log files on the menu bar</b>
   
   <div align="center">
-  <p align="Left">Log Viewer is used to view the logs of recent Scans and the results of scans like malicious files detected and the files that are removed from the system after the approval from the user </p>
+  <p align="Left">Log Viewer is used to view the logs of recent Scans and the results of scans like malicious files detected and the files that are removed from the system after approval from the user. These logs will be recorded while the scanning process is going on along with the date and time of the scan. This helps to get some detailed data on malicious that entered our system and the Files that are removed for security purposes. </p>
   <img  width=50% src="images/mavoc-log-menu.png" />
   </div>
 </details>
 
 <details>
   <summary><b>Add Database</b></summary>
-  <p>You can create your own databases . by default it has over 350000 New, Popular Databases Till 24 SEP 2023 </p>
-  <p>To add your custom database , the hash files are located in the /hashes directory. or you can add the database through the File options avaiable on the menu_bar </p>
+  <p>You can create your own databases. Now, by default, it has over 350000 New, Popular Databases Till 24 SEP 2023 </p>
+  <p>To add your custom database, the hash files are located in the /hashes directory. or you can add the database through the File options available on the menu_bar</p>
   <div align="center">
   <img width=45% src="images/mavoc-files.png" />
   </div>  
@@ -111,9 +111,9 @@
 
 ## Installation 
 
-Install the requirements. `pip3 install -r requirements.txt` .
+Install the requirements. `pip3 install -r requirements.txt`.
 
-**NOTE :: Execute the program on Administrator .**
+**NOTE:: Execute the program on Administrator .**
 
 **Methods ~**
 
@@ -131,20 +131,20 @@ _Password_ : **_mavoc_**
 
 RUN THE mavoc.py to start implementing all Functions.
 
-REPLACE your api key for virus total , cloud scans , search  `api_key` on framework.py and replace it with your virustotal API
+REPLACE your API key for virus total, cloud scans, search  `api_key` on framework.py and replace it with your virus total API
 
-To set custom hashes for scanning . visit the release to download required hashes for your needs ! 
+To set custom hashes for scanning. visit the release to download the required hashes for your needs! 
 
-> **Warning** ⚠️ Schedule scan will delete all the files without asking permission from the user. so be careful when you operate the schedule scan . By Default i have added the safer , malicous paths alone .  
+> **Warning** ⚠️ Schedule scan will delete all the files without asking permission from the user. so be careful when you operate the scheduled scan. By default, I have added the safer, malicious paths alone.  
 
 #### Customization
 
 <details>
   <summary><b>Setting up HASH for Scanning</b></summary>
   <br>
-  <p>I have Collected Popular Databases from various popular sources in Dark Web, VX-Undergrond Group etc .. </p>
-  <p>At this date over 700 K Popular SHA256 and MD5 Hashes of virus database has been added. </p>
-  <p>I Have an Two Files , the fast_md5 and fast_sha256 hashes has been added in the hashes folder. By Default 350K Popular hashes has been added </p>
+  <p>I have Collected Popular Databases from various popular sources in the Dark Web, VX-Underground Group, etc .. </p>
+  <p>At this date over 700 K Popular SHA256 and 1 million MD5 Hashes of virus database has been added. </p>
+  <p>I Have Two Files, the fast_md5 and fast_sha256 hashes have been added to the hashes folder. By default, 350K Popular hashes have been added </p>
 </details>
 
 <details>
@@ -155,29 +155,29 @@ To set custom hashes for scanning . visit the release to download required hashe
 
 <details>
   <summary><b>Custom BlackList Configuration</b></summary>
-  <p>You can custom your own black list program to block sites 
-By default it has over 42000 Malicious and scamming sites.</p>
+  <p>You can customize the blacklist file to block sites that performed some malicious activity 
+By default, it has over 46000 Malicious and scamming sites.</p>
 </details>
 
 <details>
 <summary><b>Setting Path for Schedule Scan</b></summary>
-<p>You can customize the path for the schedule scan . edit the schedule-scanning.py , search <b>`# PATH FOR SCHEDULE SCANNING`</b> in the directories_to_scan = 
-  [] add the following path for your needs.</p>
+<p>You can customize the path for the scheduled scan. edit the schedule-scanning.py , search <b>`# PATH FOR SCHEDULE SCANNING`</b> in the directories_to_scan = 
+  [] Add the following path for your needs.</p>
 </details>
 
 ####  UPDATES .., 
 
-Updates are on the way , The Update Option will be avaiable when releaes new version on it  . 
+Updates are on the way, The Update Option will be available when the new version is on it. 
 
 - [X] Mavoc Beta -> 1.0.0
 - [ ] Mavoc Installer ( Will Be Released within this week )
-- [ ] Heuristic Advance Logic Implementatition
+- [ ] Heuristic Advance Logic Implementation
 - [ ] Additional features to Network Protection
 
 
 
 #### Contribution 
 
-Everyone can contribute to this software , i will verify , test and merge it .  
+Everyone can contribute to this software, I will verify, test, and merge it.  
 
-<i> Special thanks to Phoenix for helping me in the Design Layouts 🍀 </i>
+<i> Special thanks to Phoenix for helping me with the Design Layouts and Network Protection module 🍀 </i>
