@@ -40,7 +40,6 @@ from antivirus.ui_design import show_help_menu
         self.hash_text_edit.clear()
 
 Theses mode is used to clear the screen of the black ones . To clear the screen , append the module at front
-
 '''
 
 
@@ -287,7 +286,7 @@ class ScheduleScanDialog(QDialog):
             return None
 
 
-
+## THE class is in DEVELOPMENT. THE GUI LOGIN WILL BE SOON . 
 """
 class LoginApp(QWidget):
     def __init__(self):
@@ -1819,25 +1818,36 @@ if __name__ == "__main__":
     
     # DIRECTORY PATH FOR QUICK SCAN 
 
-    directories_to_scan = [
+# IN CASE IF YOU NEED TO ADD AN DIRECTORY TO SCAN FILES ADD IT ON BOTH VARIABLES directories_to_scan AND non_quick_to_directories_scan . 
+# SINCE IT SCANS FETCHES ALL .exe files to you so i have uncommented the Desktop and Download directory. IN CASE IF THE TOOL CANT FIND , THE ONLY WAY TO 
+            # ANALYSE IS TO TARGET THE EXTENSIONS AND SET THE TARGET ON IT ---<
 
-        os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Temp'),
-   #    os.path.join(os.environ['USERPROFILE'], 'Desktop'),
-        os.path.join(os.environ['USERPROFILE'], 'Pictures'),
-        os.path.join(os.environ['USERPROFILE'], 'Music'),
-   #    os.path.join(os.environ['USERPROFILE'], 'Downloads'),
-        os.path.join(os.environ['USERPROFILE'], 'Documents'),
-        os.path.join('C:\Windows\Temp')
-        ]
+            
+        directories_to_scan = [
 
-    non_quick_to_directories_scan = [
-        os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Temp'),
-      #  os.path.join(os.environ['USERPROFILE'], 'Downloads'),
-        os.path.join(os.environ['USERPROFILE'], 'Documents'),
-      #  os.path.join(os.environ['USERPROFILE'], 'Desktop'),
-        os.path.join(os.environ['USERPROFILE'], 'Pictures'),
-      #  os.path.join(os.environ['USERPROFILE'], 'Music'),
-        os.path.join('C', 'Windows', 'Temp')
+                os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Temp'),
+           #    os.path.join(os.environ['USERPROFILE'], 'Desktop'),
+                os.path.join(os.environ['USERPROFILE'], 'Pictures'),
+                os.path.join(os.environ['USERPROFILE'], 'Music'),
+           #    os.path.join(os.environ['USERPROFILE'], 'Downloads'),
+                os.path.join(os.environ['USERPROFILE'], 'Documents'),
+                os.path.join('C:\Windows\Temp'),
+           #    os.path.join('ADD' , 'YOUR' , 'PATH', 'HERE' ),
+                os.path.join('C' ,'Windows' ,'prefetch')
+]
+
+        non_quick_to_directories_scan = [
+                
+                os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Temp'),
+              #  os.path.join(os.environ['USERPROFILE'], 'Downloads'),
+                os.path.join(os.environ['USERPROFILE'], 'Documents'),
+              #  os.path.join(os.environ['USERPROFILE'], 'Desktop'),
+                os.path.join(os.environ['USERPROFILE'], 'Pictures'),
+              #  os.path.join(os.environ['USERPROFILE'], 'Music'),
+                os.path.join('C', 'Windows', 'Temp'),
+            #    os.path.join('ADD' , 'YOUR' , 'PATH', 'HERE' ),
+
+                os.path.join('C' ,'Windows' ,'prefetch')
     ]
 
     virus_extensions = set()
