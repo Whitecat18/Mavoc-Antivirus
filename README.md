@@ -4,7 +4,7 @@
 
   <br>
 
-  <p><i> An opensource antivirus tool that scans, analyzes,s and removes malware, Torjans, payloads, botnets, Ransomware, etc
+  <p><i> An opensource antivirus tool that scans, analyze and removes malware, Torjans, payloads, botnets, Ransomware, etc
   <br>
     Created in QT and python by<a href="https://twitter.com/Smukx07"> @Smukx</a> .</i></p>
   <br />
@@ -117,11 +117,15 @@
 
 ## Installation 
 
+**An short video of installation**
+
+[![VIDEO LINK](https://img.youtube.com/vi/yIzGXEaWj_Y/0.jpg)](https://www.youtube.com/watch?v=yIzGXEaWj_Y)
+
 Install the requirements. `pip3 install -r requirements.txt`.
 
 **NOTE:: Execute the program on Administrator .**
 
-**Method 1 Autoinstall Script**
+<h4>Method 1 [Autoinstall Program]</h4>
 
 For Autoinstall use the following link 
 
@@ -131,9 +135,9 @@ For Autoinstall use the following link
 wget 'https://github.com/Whitecat18/Mavoc-Antivirus/releases/download/v1.1.0/install.py' -O install.py ; python3 install.py 
 ```
 
-**Method 2 Manual**
+<h4>Method 2 [Manual Methods]</h4>
 
-Download from Main Branch
+**Download from Main Branch**
 
 ```
 git clone https://github.com/Whitecat18/Mavoc-Antivirus.git 
@@ -145,7 +149,7 @@ start-process powershell.exe -Verb RunAs
 python3 mavoc.py
 ```
 
-Download from Releases 
+**Download from Releases **
 
 ```
 wget https://github.com/Whitecat18/Mavoc-Antivirus/releases/download/v1.1.0/Mavoc-Antivirus-main.zip
@@ -155,9 +159,10 @@ start-process powershell.exe -Verb RunAs
 cd C:\\<MAVOC-DIRECTORY>\ # GO TO MAVOC-ANTIVIRUS DIRECTORY 
 python3 mavoc.py
 ```
+
 ### _Password_ : **_mavoc_**
 
-RUN THE mavoc.py to start implementing all Functions.
+> 🥇 RUN THE mavoc.py to start all Functions of program.
 
 REPLACE your API key for virus total, cloud scans, search  `api_key` on framework.py and replace it with your virus total API
 
