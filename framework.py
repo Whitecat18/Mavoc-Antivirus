@@ -1833,7 +1833,7 @@ if __name__ == "__main__":
                 os.path.join(os.environ['USERPROFILE'], 'Documents'),
                 os.path.join('C:\Windows\Temp'),
            #    os.path.join('ADD' , 'YOUR' , 'PATH', 'HERE' ),
-                os.path.join('C' ,'Windows' ,'prefetch')
+           #     os.path.join('C' ,'Windows' ,'prefetch')
 ]
 
         non_quick_to_directories_scan = [
@@ -1847,7 +1847,7 @@ if __name__ == "__main__":
                 os.path.join('C', 'Windows', 'Temp'),
             #    os.path.join('ADD' , 'YOUR' , 'PATH', 'HERE' ),
 
-                os.path.join('C' ,'Windows' ,'prefetch')
+             #   os.path.join('C' ,'Windows' ,'prefetch')
     ]
 
     virus_extensions = set()
