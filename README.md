@@ -43,6 +43,10 @@
 ## Types of Scans
 
 **There are 6 Types of Scans** 
+
+> 💁‍♂️ Tips : Before running the Quick Scan . Please run the Clean System Option to Make the Quick Scan as Fast as possible . Because it even scans inside Temp files . So in order to make it good. Run Clean System Option .
+
+
 <!---
 - Quick Scan
 - Schedule Scan 
@@ -151,10 +155,7 @@ start-process powershell.exe -Verb RunAs
 cd C:\\<MAVOC-DIRECTORY>\ # GO TO MAVOC-ANTIVIRUS DIRECTORY 
 python3 mavoc.py
 ```
-
-
-
-_Password_ : **_mavoc_**
+### _Password_ : **_mavoc_**
 
 RUN THE mavoc.py to start implementing all Functions.
 
@@ -197,7 +198,8 @@ By default, it has over 46000 Malicious and scamming sites.</p>
 Updates are on the way, The Update Option will be available when the new version is on it. 
 
 - [X] Mavoc Beta -> 1.0.0
-- [ ] Mavoc Installer ( Will Be Released within this week )
+- [X] Mavoc Installer (CLI)
+- [ ] Mavoc Installer GUI ( With .dll pakage Files )
 - [ ] Heuristic Advance Logic Implementation
 - [ ] Additional features to Network Protection
 
