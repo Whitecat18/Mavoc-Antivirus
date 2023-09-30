@@ -117,7 +117,31 @@ Install the requirements. `pip3 install -r requirements.txt`.
 
 **NOTE:: Execute the program on Administrator .**
 
-**Methods ~**
+**Method 1 Autoinstall Script**
+
+For Autoinstall use the following link 
+
+**NOTE : RUN THIS COMMNAD IN POWERSHELL ADMINISTRATOR SHELL**
+
+```
+wget 'https://github.com/Whitecat18/Mavoc-Antivirus/releases/download/v1.1.0/install.py' -O install.py ; python3 install.py 
+```
+
+**Method 2 Manual**
+
+Download from Main Branch
+
+```
+git clone https://github.com/Whitecat18/Mavoc-Antivirus.git 
+[or]
+wget https://codeload.github.com/Whitecat18/Mavoc-Antivirus/zip/refs/heads/main
+cd Mavoc-Antivirus
+pip3 install -r requirements.txt
+start-process powershell.exe -Verb RunAs
+python3 mavoc.py
+```
+
+Download from Releases 
 
 ```
 wget https://github.com/Whitecat18/Mavoc-Antivirus/releases/download/v1.1.0/Mavoc-Antivirus-main.zip
@@ -126,8 +150,9 @@ pip3 install -r requirements.txt
 start-process powershell.exe -Verb RunAs
 cd C:\\<MAVOC-DIRECTORY>\ # GO TO MAVOC-ANTIVIRUS DIRECTORY 
 python3 mavoc.py
-
 ```
+
+
 
 _Password_ : **_mavoc_**
 
