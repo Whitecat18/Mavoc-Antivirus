@@ -115,6 +115,13 @@
   </div>  
 </details>
 
+<details>
+  <summary><b>Update Database</b></summary>
+  <p>Run update_database.ps1 script to update to an latest database</p>
+  <div align="center">
+  </div>  
+</details>
+
 ## Installation 
 
 **An short video of installation**
