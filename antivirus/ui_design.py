@@ -155,64 +155,83 @@ def init_ui(self):
         self.show()
 
 def show_help_menu(self):
-            about_text1 =  """ 
-    <title>Mavoc Antivirus Guide</title>
-    <style>
-    body {
-    font-family: "MonoSans", sans-serif;
-    }
+        about_text1 =  """ 
+<title>Mavoc Antivirus Guide</title>
+<style>
+body {
+  font-family: "MonoSans", sans-serif;
+}
 
-    h1, h2, h3, p {
-    margin: 0 0 10px 0;
-    }
+h1, h2, h3, p {
+  margin: 0 0 10px 0;
+}
 
-    h1 {
-    font-size: 24px;
-    }
+h1 {
+  font-size: 24px;
+}
 
-    h2 {
-    font-size: 20px;
-    }
+h2 {
+  font-size: 20px;
+}
 
-    h3 {
-    font-size: 18px;
-    }
+h3 {
+  font-size: 18px;
+}
 
-    p {
-    line-height: 1.5;
-    }
-    </style>
-    </head>
-    <body>
-    <center><h2>Guide to use Mavoc Antivirus tool</h2></center>
-    <p>
-    There are three options you can use in this tool:
-    </p>
-    <ul>
-    <li>Quick Scan</li>
-    <li>Full Scan</li>
-    <li>Cloud Scan</li>
-    <li>Clean System</li>
-    </ul>
-    <h2>Quick Scan</h2>
-    <p>
-    Quick scan allows you scan specfic paths to search for malicious code and after the process completion the result of the scan will be displayed and request permission to remove it from the disk if any malware is found.
-    </p>
-    <h2>Full Scan</h2>
-    <p>
-    Full scan allows you to select a particular directory or A complete Partition can be scanned to verify the presence of malware and request permission to be removed from the system disk if any malware is found.
-    Partition Scan Allows you scan specifc partiton and directories . It will List out once if the Malicious files has been found .
-    </p>
-    <h2>Cloud Firm Scan</h2>
-    <p>
-    Cloud from scan allows you to select cloud storage by selecting the directory from the network section in the file manager or Files section in MAC.
-    Please Contact <b><a href="https://github.com/Whitecat18" > Smukx </a></b> for Implementing Cloud Databases </p>
-    <h2>Clean System</h2>
-    <p>
-    This Option allows you to remove Unwanted Temp files as well as any Unwanted Malicious files in your system and makes your system fast . 
-    </p>
-    </body>
-    </html>
-    """
-            QMessageBox.about(self, "Mavoc Help" , about_text1)
+p {
+  line-height: 1.5;
+}
+</style>
+</head>
+<body>
+<center><h2>Guide to use Mavoc Antivirus tool</h2></center>
+<p>
+There are three options you can use in this tool:
+</p>
+<ul>
+<li>Quick Scan</li>
+<li>schedule Scan</li>
+<li>Full Scan</li>
+<li>Cloud Scan</li>
+<li>Network Scan</li>
+<li>Clean System</li>
+</ul>
+<h2>Quick Scan</h2>
+<p>
+Quick scan allows you to select a particular file that needs to be scanned for the presence of malicious code and after the process completion the result of the scan will be displayed and request permission to remove it from the disk if any malware is found.
+</p>
+<h2>Schedule Scan</h2>
+<p>Schedule Scan is used to scan for an particular time when antivirus starts running</p>
+<h2>Full Scan</h2>
+<p>
+Full scan allows you to select a particular directory or A complete Partition can be scanned to verify the presence of malware and request permission to be removed from the system disk if any malware is found.
+</p>
+<h2>Cloud Firm Scan</h2>
+<p>
+Cloud Scan Uses the Virus Total API To scan for Particular Files.
+<h2>Clean System</h2>
+<p>
+This Option allows you to remove the temp in your system if any backdoor or any executable file that contains malware is installed in the temp file section of your computer. The unwanted executable file in the temp file of your system might pave the way for a hacker to easily penetrate into your system and can lead to a Data breach.
+</p>
+<h2> Network Scan </h2>
+<p> Network Proctection prevents the user from reaching to malicious sites. This contains a list of vulnerable sites in a Database which could make the user's data more vulnerable, so the sites in the database will be written to the hosts files in the etc folder of Windows machines. So any browser on the windows system first checks for the hosts file before reaching the site </p>
+<h2> Scheduled Scan</h2>
+<p> This creates a ease for the user to scan their systems for malicious files without scanning maually</p>
+</body>
+</html> """
+        help_dialog = QDialog()
+        help_dialog.setWindowTitle("Mavoc Help")
+        help_dialog.setMinimumWidth(600)
+        help_dialog.setMinimumHeight(600)
+        help_text_edit = QTextEdit()
+        help_text_edit.setHtml(about_text1)
+        help_text_edit.setReadOnly(True)
+        help_text_edit.setVerticalScrollBarPolicy(Qt.ScrollBarAsNeeded)
+
+        layout = QVBoxLayout()
+        layout.addWidget(help_text_edit)
+        help_dialog.setLayout(layout)
+
+        help_dialog.exec_()
+
 
