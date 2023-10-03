@@ -836,13 +836,29 @@ class AntivirusUI(QMainWindow):
         """
         QMessageBox.about(self, "Mavoc Help" , contact_box)
 
-    def update_info(self):
-        update_box = """
-        <center><h4> Update Module </h4></center><br>
-        <b> Antivirus Version 1.0.0 </b><br>
 
-        """ 
-        QMessageBox.about(self, "Update", update_box)
+
+    def update_info(self):
+        self.log("Updating Database ...\n")
+        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        self.log(f"Current Update : {current_time}\n")
+
+        script_directory = os.path.dirname(os.path.abspath(__file__))
+
+        os.system('powershell.exe ./update_database.ps1')
+
+        os.system('msg * Database Updated Successfully')
+
+        update_box = f"""
+
+        <center><h3> Database Info</h3></center><br>\n
+        Database Update Date {current_time}\n
+        <b> Antivirus Version 1.0.0 </b><br>
+        """
+        time.sleep(0.8)
+        QMessageBox.about(self, "Database Update" , update_box )
+
+
 
 #    def view_hash(self):
 #        log_history = self.read_file_content("log-file.txt")
@@ -1046,8 +1062,8 @@ Full scan allows you to select a particular directory or A complete Partition ca
 </p>
 <h2>Cloud Firm Scan</h2>
 <p>
-Cloud from scan allows you to select cloud storage by selecting the file sending it to the largest databases to check with multiple checksums .
-Please Contact <b><a href="https://github.com/Whitecat18" > Smukx </a></b> for Implementing Cloud Databases </p>
+Cloud Scan Uses the Virus Total API To scan for Particular Files.
+</p>
 <h2>Clean System</h2>
 <p>
 This Option allows you to remove the temp in your system if any backdoor or any executable file that contains malware is installed in the temp file section of your computer. The unwanted executable file in the temp file of your system might pave the way for a hacker to easily penetrate into your system and can lead to a Data breach.
@@ -1059,7 +1075,22 @@ This Option allows you to remove the temp in your system if any backdoor or any 
 </body>
 </html>        
 """
-        QMessageBox.about(self, "Mavoc Help" , about_text1)
+
+        help_dialog = QDialog()
+        help_dialog.setWindowTitle("Mavoc Help")
+        help_dialog.setMinimumWidth(600) 
+        help_dialog.setMinimumHeight(600)
+        help_text_edit = QTextEdit()
+        help_text_edit.setHtml(about_text1)
+        help_text_edit.setReadOnly(True)
+        help_text_edit.setVerticalScrollBarPolicy(Qt.ScrollBarAsNeeded)
+
+        layout = QVBoxLayout()
+        layout.addWidget(help_text_edit)
+        help_dialog.setLayout(layout)
+
+        help_dialog.exec_()
+        help_dialog.exec_()
 
     def add_md5_to_database(self):
         text, ok = QInputDialog.getText(self, "Add MD5 Hash", "Enter the MD5 Hash:")
@@ -1200,7 +1231,6 @@ This Option allows you to remove the temp in your system if any backdoor or any 
 
         if file_path:
             with open("logfiles/log-file-cloud-scan.txt", "w") as log_file:
-                # Define a helper function to log messages both to the GUI and the file
                 def log(message):
                     self.log(message)
                     log_file.write(message)
@@ -1211,8 +1241,15 @@ This Option allows you to remove the temp in your system if any backdoor or any 
 
                 self.status("Uploading file to Cloud Scanner...\n")
 
+                api_key_file = "virustotal_api_key.txt"
+                if os.path.exists(api_key_file):
+                    with open(api_key_file, "r") as key_file:
+                        api_key = key_file.read().strip()
+                else:
+                    log("API key file 'virustotal_api_key.txt' not found.\n")
+                    self.status("API key file not found.")
+                    return
 
-                api_key = "YOUR API KEY HERE"
                 scan_id = self.upload_to_virustotal(file_path, api_key)
 
                 if scan_id:
@@ -1776,25 +1813,28 @@ This Option allows you to remove the temp in your system if any backdoor or any 
     def delete_temp_files(self):
         self.log("Deleting temporary files and folders...\n")
 
-        temp_dir = tempfile.gettempdir()  
-        for root, dirs, files in os.walk(temp_dir):
-            for file in files:
-                file_path = os.path.join(root, file)
-                try:
-                    os.remove(file_path) 
-                    self.log(f"Deleted file: {file_path}\n")
-                except Exception as e:
-                    self.log(f"Error deleting file: {file_path}, Error: {e}\n")
+        additional_paths = ['C:\\Windows\\prefetch', 'C:\\Windows\\Temp']
 
-            for dir in dirs:
-                dir_path = os.path.join(root, dir)
-                try:
-                    shutil.rmtree(dir_path) 
-                    self.log(f"Deleted folder: {dir_path}\n")
-                except Exception as e:
-                    self.log(f"Error deleting folder: {dir_path}, Error: {e}\n")
 
-        self.log("Cleanup completed.\n")
+        for path in additional_paths:
+            for root, dirs, files in os.walk(path):
+                for file in files:
+                    file_path = os.path.join(root, file)
+                    try:
+                        os.remove(file_path)
+                        self.log(f"Deleted file: {file_path}\n")
+                    except Exception as e:
+                        self.log(f"Error deleting file: {file_path}, Error: {e}\n")
+
+                for dir in dirs:
+                    dir_path = os.path.join(root, dir)
+                    try:
+                        shutil.rmtree(dir_path)
+                        self.log(f"Deleted folder: {dir_path}\n")
+                    except Exception as e:
+                        self.log(f"Error deleting folder: {dir_path}, Error: {e}\n")
+
+        self.log("Conpleted Cleaning System Files.\n")
 
 ### Update Function
 
@@ -1833,7 +1873,7 @@ if __name__ == "__main__":
                 os.path.join(os.environ['USERPROFILE'], 'Documents'),
                 os.path.join('C:\Windows\Temp'),
            #    os.path.join('ADD' , 'YOUR' , 'PATH', 'HERE' ),
-           #     os.path.join('C' ,'Windows' ,'prefetch')
+                os.path.join('C' ,'Windows' ,'prefetch')
 ]
 
         non_quick_to_directories_scan = [
@@ -1847,7 +1887,7 @@ if __name__ == "__main__":
                 os.path.join('C', 'Windows', 'Temp'),
             #    os.path.join('ADD' , 'YOUR' , 'PATH', 'HERE' ),
 
-             #   os.path.join('C' ,'Windows' ,'prefetch')
+                os.path.join('C' ,'Windows' ,'prefetch')
     ]
 
     virus_extensions = set()
@@ -1857,4 +1897,3 @@ if __name__ == "__main__":
     
     antivirus_app = AntivirusUI()
     sys.exit(app.exec_())
-
