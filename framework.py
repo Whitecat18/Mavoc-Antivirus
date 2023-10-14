@@ -31,8 +31,10 @@ import psutil
 from datetime import datetime
 import self
 import time
+import getpass
 import threading
 from antivirus.ui_design import show_help_menu
+from antivirus import clean
 
 
 '''
@@ -104,6 +106,13 @@ class LoginWindow(QMainWindow):
         msg_box.setText("Incorrect password. Please try again.")
         msg_box.setFixedSize(300, 150)
         msg_box.exec_()
+
+
+# Scan Loading page for user
+
+
+
+## Scan Dialog for Quick Scans.
 
 
 
@@ -430,6 +439,11 @@ def run_full_computer_scan(self):
     self.hash_text_edit.verticalScrollBar().setValue(self.hash_text_edit.verticalScrollBar().maximum())
 
 """
+
+scan_alert = """
+    powershell.exe -Command "[void][System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms'); [System.Windows.Forms.MessageBox]::Show('The Files are Scanning Do not intercept the process . Please Click OK to Continue . ', 'Mavoc Antivirus')
+            """
+
 
 class TextViewDialog(QDialog):
     def __init__(self, title, content, parent=None):
@@ -1344,14 +1358,17 @@ This Option allows you to remove the temp in your system if any backdoor or any 
 
 
     def run_partition_full_scan(self):
+        
         self.status_text_edit.clear()
         self.hash_text_edit.clear()
 
+
+    # Execute Function 
+ 
         # Create or open the log file for writing
         with open("logfiles/log-file.txt", "a") as log_file:
-            # Define a helper function to log messages both to the GUI and the file
             def log(message):
-                self.log(message)  
+                self.log(message)
                 log_file.write(message)
 
             log("Running Partition Scan ...\n")
@@ -1359,6 +1376,8 @@ This Option allows you to remove the temp in your system if any backdoor or any 
             options = QFileDialog.Options()
             options |= QFileDialog.ReadOnly
             directory_path = QFileDialog.getExistingDirectory(self, "Select Directory for Full Scan", options=options)
+
+            os.system(scan_alert)
 
             if directory_path:
                 log(f"Running Full Scan on: {directory_path}\n")
@@ -1441,7 +1460,9 @@ This Option allows you to remove the temp in your system if any backdoor or any 
         self.hash_text_edit.clear()
 
         self.log("Running Full Computer Scan ...")
-
+        
+        os.system(scan_alert)
+        
         root_directories = [
             os.path.expanduser("~"),  # Home directory
 #            "C:\\", "D:\\" , "E:\\"                  # Drive C: (you can add more drives if needed)
@@ -1541,9 +1562,12 @@ This Option allows you to remove the temp in your system if any backdoor or any 
         self.status_text_edit.clear()
         self.hash_text_edit.clear()
 
+        os.system(scan_alert)
+
         self.log("Running Quick Scan ...\n")
         self.status("Scanning for suspicious files ...\n")
 
+        
         suspicious_files = []
 
 ## Implementing the non recursive scan 
@@ -1590,7 +1614,8 @@ This Option allows you to remove the temp in your system if any backdoor or any 
     def run_recursive_quick_scan(self):
         self.status_text_edit.clear()
         self.hash_text_edit.clear()
-
+        
+        os.system(scan_alert)
         # Define a helper function to log messages to both the GUI and the log file
         def log(message):
             self.status_text_edit.append(message)
@@ -1813,8 +1838,13 @@ This Option allows you to remove the temp in your system if any backdoor or any 
     def delete_temp_files(self):
         self.log("Deleting temporary files and folders...\n")
 
-        additional_paths = ['C:\\Windows\\prefetch', 'C:\\Windows\\Temp']
-
+        current_user = getpass.getuser()
+        
+        user_temp = os.path.join('C:\\Users', current_user, 'AppData', 'Local', 'Temp')
+        user_temp1 = 'C:\\Windows\\Prefetch'
+        user_temp2 = 'C:\\Windows\\Temp'
+        
+        additional_paths = [user_temp , user_temp1 , user_temp2]
 
         for path in additional_paths:
             for root, dirs, files in os.walk(path):
@@ -1835,6 +1865,7 @@ This Option allows you to remove the temp in your system if any backdoor or any 
                         self.log(f"Error deleting folder: {dir_path}, Error: {e}\n")
 
         self.log("Conpleted Cleaning System Files.\n")
+    
 
 ### Update Function
 
@@ -1866,28 +1897,28 @@ if __name__ == "__main__":
         directories_to_scan = [
 
                 os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Temp'),
-           #    os.path.join(os.environ['USERPROFILE'], 'Desktop'),
                 os.path.join(os.environ['USERPROFILE'], 'Pictures'),
                 os.path.join(os.environ['USERPROFILE'], 'Music'),
-           #    os.path.join(os.environ['USERPROFILE'], 'Downloads'),
                 os.path.join(os.environ['USERPROFILE'], 'Documents'),
                 os.path.join('C:\Windows\Temp'),
            #    os.path.join('ADD' , 'YOUR' , 'PATH', 'HERE' ),
-                os.path.join('C' ,'Windows' ,'prefetch')
+           # EXample 
+           #    os.path.join(os.environ['USERPROFILE'], 'Downloads'),
+
+                os.path.join('C:\Windows\Prefetch')
 ]
 
         non_quick_to_directories_scan = [
                 
                 os.path.join(os.environ['USERPROFILE'], 'AppData', 'Local', 'Temp'),
-              #  os.path.join(os.environ['USERPROFILE'], 'Downloads'),
                 os.path.join(os.environ['USERPROFILE'], 'Documents'),
-              #  os.path.join(os.environ['USERPROFILE'], 'Desktop'),
                 os.path.join(os.environ['USERPROFILE'], 'Pictures'),
-              #  os.path.join(os.environ['USERPROFILE'], 'Music'),
                 os.path.join('C', 'Windows', 'Temp'),
-            #    os.path.join('ADD' , 'YOUR' , 'PATH', 'HERE' ),
+            #   os.path.join('ADD' , 'YOUR' , 'PATH', 'HERE' ),
+            # Example
+              #  os.path.join(os.environ['USERPROFILE'], 'Music'),
 
-                os.path.join('C' ,'Windows' ,'prefetch')
+                os.path.join('C:\Windows\Prefetch')
     ]
 
     virus_extensions = set()
@@ -1895,5 +1926,10 @@ if __name__ == "__main__":
         for line in ext_file:
             virus_extensions.add(line.strip()) 
     
+    ## Clean Temp Files automatically
+
+    clean.del_temp_files_cli()
+
+    # Srart the GUI
     antivirus_app = AntivirusUI()
     sys.exit(app.exec_())

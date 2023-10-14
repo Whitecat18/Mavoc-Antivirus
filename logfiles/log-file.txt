@@ -67,4 +67,25 @@ Detected malicious files:
 File: Z:/Mavoc/testfile\test.bat, Extension: .bat
 File: Z:/Mavoc/testfile\bios_date.bat, Extension: .bat
 
+Full Scan completed.Running Partition Scan ...
+Running Full Scan on: Z:/Mavoc-Antivirus/logfiles
+Current Scanning Time: 2023-10-14 17:44:45
+No malicious files detected.
+
+Full Scan completed.Running Partition Scan ...
+Running Full Scan on: Z:/antivirus program/testfile
+Current Scanning Time: 2023-10-14 17:53:27
+Detected malicious files:
+File: Z:/antivirus program/testfile\test.bat, Extension: .bat
+File: Z:/antivirus program/testfile\BitTorrent Web.lnk, Extension: .lnk
+File: Z:/antivirus program/testfile\bios_date.bat, Extension: .bat
+
+Full Scan completed.Running Partition Scan ...
+Running Full Scan on: Z:/antivirus program/testfile
+Current Scanning Time: 2023-10-14 17:56:50
+Detected malicious files:
+File: Z:/antivirus program/testfile\test.bat, Extension: .bat
+File: Z:/antivirus program/testfile\BitTorrent Web.lnk, Extension: .lnk
+File: Z:/antivirus program/testfile\bios_date.bat, Extension: .bat
+
 Full Scan completed.

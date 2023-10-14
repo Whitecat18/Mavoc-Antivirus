@@ -105,4 +105,51 @@ MD5 Hash: 822b37dd1089f988ed4a8b67b26c10ac
 SHA256 Hash: 9dba3c519b3cbe856816f98af70839ae2c0d94d44b6637815fb9366b098f2391
 
 
+Quick Scan completed.Running Quick Scan ...
+Current Scanning Time: 2023-10-14 16:22:42
+Directory not found: C\Windows\prefetch
+
+Suspicious files found:
+File: C:\Users\Smukx\AppData\Local\Temp\.ses
+MD5 Hash: 35ca56f1bde49c2fb32de60a695ae1fa
+SHA256 Hash: c0f952328e217a1b94a8ec1641b7e24b9e4b9d05baf9858cae4508213eb212f1
+
+File: C:\Users\Smukx\AppData\Local\Temp\edge_BITS_5868_771806043\8648d448-f8bb-43f0-820b-4b83e2e68ad4
+MD5 Hash: 59560aad53719b4de2573083b5e48b54
+SHA256 Hash: 7889433b90a336f7ec3abbf12d730043a76b6e8d32c293fca1a9e3cab30b2fac
+
+File: C:\Users\Smukx\AppData\Local\Temp\edge_BITS_6588_1344556815\9775e08a-2fda-4cf3-817f-f0ade35980f5
+MD5 Hash: bf3cbec015479c21628f9e4046a37cae
+SHA256 Hash: 61d51a7289a36d100fa36ef55137e9dbcafa82e9db6b6d30a9f4da34a78a1c77
+
+File: C:\Users\Smukx\AppData\Local\Temp\edge_BITS_6588_1349989268\8648d448-f8bb-43f0-820b-4b83e2e68ad4
+MD5 Hash: 59560aad53719b4de2573083b5e48b54
+SHA256 Hash: 7889433b90a336f7ec3abbf12d730043a76b6e8d32c293fca1a9e3cab30b2fac
+
+File: C:\Users\Smukx\AppData\Local\Temp\edge_BITS_6588_551513705\170277fa-dd48-49a3-9b2b-13ca93cdec6c
+MD5 Hash: ca570de6a506a691f3c1b492ec02b8ab
+SHA256 Hash: 7d43d883f7a78720bdbae362d32cb77731ebf1ed1ff7ad8690bbc5d0693c2d69
+
+File: C:\Users\Smukx\AppData\Local\Temp\edge_BITS_6588_574641887\ffbbd329-2ed1-47f2-8581-5f907c46afc5
+MD5 Hash: ef54893dc85345b4c18187312f8fb88b
+SHA256 Hash: 69807417e9ead3cca80d6914a83627faad3b68b33a245a6ac47cad2334b7f3e1
+
+File: C:\Users\Smukx\AppData\Local\Temp\edge_BITS_6588_633315248\0e920168-33f2-41f3-a9c0-5fde0b012629
+MD5 Hash: 0e6c4a0604e66bd632608fce18eb0d63
+SHA256 Hash: 9eb46d70a55319dcb9d850a0f18048032166f63c45564355edacb93c23f7803d
+
+File: C:\Users\Smukx\AppData\Local\Temp\edge_BITS_7732_748363775\78ae776b-06d6-4360-a652-afb6813c5d6d
+MD5 Hash: c7631e3dc9457ff80e99784e4a20f60e
+SHA256 Hash: 43cf05d9ec04825f32c6c5ef91539bdc16b27218c6322a5c3a1c3ec7cefe6b73
+
+
+Quick Scan completed.Running Quick Scan ...
+Current Scanning Time: 2023-10-14 17:48:30
+Directory not found: C\Windows\prefetch
+No suspicious files found.
+
+Quick Scan completed.Running Quick Scan ...
+Current Scanning Time: 2023-10-14 17:56:15
+No suspicious files found.
+
 Quick Scan completed.
