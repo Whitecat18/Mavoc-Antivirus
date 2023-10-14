@@ -210,6 +210,11 @@ By default, it has over 46000 Malicious and scamming sites.</p>
 
 <b> OCT 2023 </b>
 
+- [X] Now you can Automatically clean all temp files from system when program starts up . ( Best case to Prevent Startup Payloads etc.. )
+- [X] Fixed some Bugs
+
+**OLD OCT 2023**
+
 - [X] Now you can Update Your Database By Just Clicking Update on the Options Menu.
 - [X] Modified Additional Temp Path to Clean System Option to Make the work better.
 - [X] Added virustotal_api_key.txt . Paste your API key in this .txt file for Cloud Scanning.
