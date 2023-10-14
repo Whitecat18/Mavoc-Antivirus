@@ -1,5 +1,6 @@
 # Powershell script to download the lastes hashes from malware bazzar. 
 # Mavoc-Antivirus : https://github.com/Whitecat18/Mavoc-Antivirus
+
 $md5Url = "https://bazaar.abuse.ch/export/txt/md5/recent/"
 $sha256Url = "https://bazaar.abuse.ch/export/txt/sha256/recent/"
 $md5FileName = "hashes/md5_hashes.txt"

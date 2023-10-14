@@ -1920,7 +1920,6 @@ if __name__ == "__main__":
 
                 os.path.join('C:\Windows\Prefetch')
     ]
-
     virus_extensions = set()
     with open("hashes/virus-extensions.txt", "r") as ext_file:
         for line in ext_file:
