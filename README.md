@@ -4,7 +4,8 @@
 
   <br>
 
-  <p><i> An opensource antivirus tool that scans, analyze and removes malware, Torjans, payloads, botnets, Ransomware, etc
+  <p><i> A Medium Level Based POC Windows Antivirus Tool written in python to detect ransomware , viruses , backdoors , payloads and completely removes it from system.
+    
   <br>
     Created in QT and python by<a href="https://twitter.com/Smukx07"> @Smukx</a> .</i></p>
   <br />
