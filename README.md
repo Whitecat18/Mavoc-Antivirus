@@ -7,7 +7,7 @@
   <p><i> A Medium Level Based POC Windows Antivirus Tool written in python to detect ransomware , viruses , backdoors , payloads and completely removes it from system.
     
   <br>
-    Created in QT and python by<a href="https://twitter.com/Smukx07"> @Smukx</a> .</i></p>
+    Created in QT and python by<a href="https://twitter.com/5mukx"> @Smukx</a> .</i></p>
   <br />
   <img src="images/mavoc_quickscan.png" width=70%/>
   <img src="images/quick-scan-result.png" width=70%/>
