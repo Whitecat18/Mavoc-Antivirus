@@ -84,17 +84,12 @@ class ScheduledScan:
         logging.info(f"Scan Completed at {current_time}")
 
     def confirm_and_remove_file(self, file_path, filename):
-        # Check if the file is malicious
-        is_malicious = True 
-
-        if is_malicious:
-            try:
-                os.remove(file_path) 
-                return True
-            except Exception as e:
-                logging.error(f"Failed to remove malicious file: {file_path} - {str(e)}")
-                return False
-        return False
+        try:
+            os.remove(file_path) 
+            return True
+        except Exception as e:
+            logging.error(f"Failed to remove malicious file: {file_path} - {str(e)}")
+            return False
 
     def start_scheduled_scan(self):
         try:

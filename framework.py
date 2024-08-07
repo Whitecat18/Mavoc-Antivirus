@@ -1533,7 +1533,7 @@ This Option allows you to remove the temp in your system if any backdoor or any 
 
         return detected_malicious_files
 
-### FULL MODULE FOR QUICK SCAN FUCK 
+### FULL MODULE FOR QUICK SCAN 
 
     def run_quick_scan(self):
         self.status_text_edit.clear()
